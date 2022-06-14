@@ -1,0 +1,11 @@
+uuid: 50284051-bf67-49fa-b951-f611250940f1
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categoria_heroe
+id: taxonomy_term.categoria_heroe
+target_entity_type_id: taxonomy_term
+target_bundle: categoria_heroe
+default_langcode: site_default
+language_alterable: false

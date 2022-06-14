@@ -1,0 +1,19 @@
+uuid: c05c4824-389c-4d81-a42d-2e73e98e7d9f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_del_heroe
+    - node.type.heroes
+id: node.heroes.field_descripcion_del_heroe
+field_name: field_descripcion_del_heroe
+entity_type: node
+bundle: heroes
+label: 'descripcion del heroe'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

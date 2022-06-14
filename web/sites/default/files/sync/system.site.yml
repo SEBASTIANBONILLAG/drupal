@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: es
+uuid: c83c79da-4e56-4db2-9016-080389947f16
+name: practica
+mail: sebastian.bonillaguz@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /heroes
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: es

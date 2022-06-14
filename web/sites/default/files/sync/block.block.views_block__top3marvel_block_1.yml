@@ -1,0 +1,29 @@
+uuid: 356dd007-0e0c-4f66-87fc-d2e5797073fc
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.top3marvel
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__top3marvel_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:top3marvel-block_1'
+settings:
+  id: 'views_block:top3marvel-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /universomv

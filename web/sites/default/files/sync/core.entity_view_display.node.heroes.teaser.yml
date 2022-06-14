@@ -1,0 +1,29 @@
+uuid: 6b295b1d-242e-40ad-8e45-fc096639215c
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.heroes.field_categoria_heroe
+    - field.field.node.heroes.field_descripcion_del_heroe
+    - field.field.node.heroes.field_image
+    - field.field.node.heroes.field_nombre_heroe
+    - node.type.heroes
+  module:
+    - user
+id: node.heroes.teaser
+targetEntityType: node
+bundle: heroes
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_categoria_heroe: true
+  field_descripcion_del_heroe: true
+  field_image: true
+  field_nombre_heroe: true
+  langcode: true

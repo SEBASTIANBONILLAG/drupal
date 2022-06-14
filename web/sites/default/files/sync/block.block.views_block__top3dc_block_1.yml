@@ -1,0 +1,29 @@
+uuid: aacee7fd-c042-4ed0-b068-70c16a633d2d
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.top3dc
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__top3dc_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:top3dc-block_1'
+settings:
+  id: 'views_block:top3dc-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /universodc

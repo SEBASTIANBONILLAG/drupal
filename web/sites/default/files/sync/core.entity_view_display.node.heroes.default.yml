@@ -1,0 +1,57 @@
+uuid: 8afa387c-dbdc-4d8b-80f5-cf66403c193b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.heroes.field_categoria_heroe
+    - field.field.node.heroes.field_descripcion_del_heroe
+    - field.field.node.heroes.field_image
+    - field.field.node.heroes.field_nombre_heroe
+    - image.style.large
+    - node.type.heroes
+  module:
+    - image
+    - user
+id: node.heroes.default
+targetEntityType: node
+bundle: heroes
+mode: default
+content:
+  field_categoria_heroe:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_descripcion_del_heroe:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_nombre_heroe:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: 8d665966-2d76-483a-ab4a-fb4f07764918
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.heroes
+id: node.heroes
+target_entity_type_id: node
+target_bundle: heroes
+default_langcode: site_default
+language_alterable: false

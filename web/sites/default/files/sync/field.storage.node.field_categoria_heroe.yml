@@ -1,0 +1,20 @@
+uuid: 29291e0b-dfb0-4f4b-8e31-ce183c319457
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_categoria_heroe
+field_name: field_categoria_heroe
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

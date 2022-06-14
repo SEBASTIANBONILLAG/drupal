@@ -1,0 +1,29 @@
+uuid: b59e25e9-78a2-43a8-b09a-4450b7844aad
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria_heroe
+    - node.type.heroes
+    - taxonomy.vocabulary.categoria_heroe
+id: node.heroes.field_categoria_heroe
+field_name: field_categoria_heroe
+entity_type: node
+bundle: heroes
+label: 'categoria heroe'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoria_heroe: categoria_heroe
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

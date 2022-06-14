@@ -1,0 +1,8 @@
+uuid: 0ea29a0f-74f0-44a3-8df0-0a869f277797
+langcode: es
+status: true
+dependencies: {  }
+name: 'categoria heroe'
+vid: categoria_heroe
+description: ''
+weight: 0
